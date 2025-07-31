@@ -15,7 +15,7 @@ st.title("📄 複数ファイル対応！AIチャット (Public Ver.)")
 # --- APIキーの設定 ---
 # StreamlitのSecretsからAPIキーを読み込む
 try:
-    genai.configure(api_key=st.secrets["GOOGLE_API_KEY"])
+    genai.configure(api_key=st.secrets["AIzaSyDiEOgaMNj9ERlC_ROrhBY8W-emWqjQV4s"])
 except Exception:
     st.error("エラー: Google APIキーが設定されていません。StreamlitのSecretsに設定してください。")
     st.stop()
